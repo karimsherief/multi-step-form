@@ -1,4 +1,4 @@
-import React, { FormEvent } from "react";
+import React from "react";
 
 interface FormWrapperProps {
   children: React.ReactNode;

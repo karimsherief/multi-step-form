@@ -1,6 +1,6 @@
 import React, { FormEvent, useState } from "react";
 import { AccountForm, AddressForm, UserForm } from "./components";
-import useMultistepForm from "./hooks/useMultiStepForm";
+import useMultistepForm from "./hooks/useMultistepForm";
 
 interface DataProps {
   firstName: string;
