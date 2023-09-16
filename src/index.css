@@ -1,0 +1,57 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+
+  border: 1px solid black;
+  border-radius: 10px;
+  max-width: max-content;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.steps {
+  align-self: flex-end;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+
+form h2 {
+  font-weight: bold;
+  margin: 0;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form label {
+  font-weight: normal;
+
+}
+
+form input {
+  width: 70%
+}
+
+.btns {
+  align-self: flex-end;
+  gap: 10px;
+}
+
+.children {
+  display: grid;
+  gap: 1rem .5rem;
+  justify-content: flex-start;
+  grid-template-columns: auto minmax(auto, 400px);
+}
